@@ -8,7 +8,7 @@ import arrow_right from '../../images/arrow-right.png';
 function Home() {
 
     return (
-        <>
+        <div className='overlay'>
             <div className='header'>
                 <div className='header__top'>
                     <Link className='link' to='#'>Home</Link>
@@ -21,8 +21,8 @@ function Home() {
             </div>
             <div className='main'>
                 <h1 className='main__name'>Ivana Pejicic</h1>
-                <h2 className='main__title'>Full-stack Developer</h2>
-                <h3 className='main__description'>Crafting high-performance, elegant web applications.</h3>
+                <h3 className='main__title'>Full-stack Developer</h3>
+                <h4 className='main__description'>Crafting high-performance, elegant web applications.</h4>
                 {/* <Link to="#">
                     <img className='main__arrow' src={arrow_right} alt='arrow that takes to the next page'></img>
                 </Link> */}
@@ -38,7 +38,7 @@ function Home() {
                     <img className='footer-logo' src={email} alt='email logo that redirects to new email with my address' />
                 </Link>
             </div>
-        </>
+        </div>
     );
 }
 

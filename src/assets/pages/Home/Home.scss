@@ -2,11 +2,31 @@
 @use '../../styles/typography' as *;
 @use '../../styles/variables' as *;
 
-*{
-    background-color: $backround;
 
+* {
+    box-sizing: border-box;
 }
-.header{
+
+body {
+    margin: 0;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+    z-index: -1;
+}
+
+.header {
 
     @include tablet {
         font-size: 1.25rem;
@@ -14,28 +34,28 @@
     }
 
     @include desktop {
-        font-size: 2.5rem;
-        padding: 4rem;
-        padding-top: 2.5rem;
+        font-size: 2rem;
+        padding: .5rem 4rem 0;
     }
-    &__top{
+
+    &__top {
         padding: 1rem;
         display: flex;
         justify-content: space-between;
 
-        &-right{
+        &-right {
             display: flex;
             justify-content: space-between;
         }
     }
 }
 
-.main{
+.main {
     text-align: left;
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     height: 75vh;
     padding: 1rem;
@@ -43,88 +63,82 @@
     @include tablet {
         font-size: 1.75rem;
         padding: 2.5rem;
-        height: 80vh;
 
     }
 
-    @include desktop{
-        font-size: 3rem;
-        padding: 4rem;
+    @include desktop {
+        font-size: 2.25rem;
+        // padding-left: 12rem;
     }
 
-    &__name{
+    &__name {
         padding: 1rem;
-        @include tablet{
+
+        @include tablet {
             padding: 1.5rem;
         }
     }
-    &__title{
+
+    &__title {
         padding: 1rem;
         padding-top: 0;
 
-        @include tablet{
+        @include tablet {
             padding: 1.5rem;
             padding-top: 0;
         }
     }
-    &__description{
+
+    &__description {
         padding-left: 1rem;
 
-        @include tablet{
+        @include tablet {
             padding: 1.5rem;
             padding-top: 0;
         }
     }
-    // &__arrow {
-    //     width: 70%;
-    //     align-self: flex-start; 
-    //     padding: 1rem;
-
-    //     @include tablet {
-    //         width: 95%;
-    //         padding: 1.5rem;
-    //     }
-
-    //     @include desktop {
-    //         width: 100%;
-    //         padding: 2rem;
-    //         align-self: flex-start; 
-    //     }
-    // }
 
 }
 
-.footer{
+.footer {
+    width: 30%;
     display: flex;
     justify-content: space-between;
-    padding: 0 5rem;
+    align-items: flex-start;
+    padding-left: 2rem;
 
     @include tablet {
-        padding: 0 12rem 2rem;
+        padding-left: 2.5rem;
+    }
+    @include desktop {
+        padding-left: 4rem;
     }
 
-    &-logo{
+    &-logo {
         width: 2rem;
+
         @include tablet {
-            width: 3rem;
-        }
-        @include desktop {
-            width: 7rem;
+            width: 2.5rem;
         }
 
-        &:hover{
+        @include desktop {
+            width: 3.5rem;
+        }
+
+        &:hover {
             transform: scale(1.1);
         }
     }
 
 }
-.link{
+
+.link {
     text-decoration: none;
     padding-left: 1.5rem;
     color: white;
     font-weight: bold;
 
-    &:hover{
+    &:hover {
         color: yellow;
         transform: scale(1.1);
     }

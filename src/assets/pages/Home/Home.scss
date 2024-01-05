@@ -74,6 +74,28 @@
         }
     }
 }
+
+.footer{
+    padding-left: 1rem;
+    display: flex;
+    justify-content:flex-start;
+
+    @include tablet {
+        padding-left: 4rem;
+    }
+
+    &-logo{
+        padding-left: .75rem;
+
+        @include tablet {
+            padding-left: 1.5rem;
+        }
+        @include desktop {
+            padding-left: 3rem;
+        }
+    }
+
+}
 .link{
     text-decoration: none;
     padding-left: 1.5rem;

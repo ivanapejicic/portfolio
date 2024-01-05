@@ -25,13 +25,13 @@ function Home() {
             </div>
             <div className='footer'>
                 <Link to='https://www.linkedin.com/in/ivanapejicic/'>
-                    <img src={linkedin} alt='linkedin logo that takes to my linkedin profile' />
+                    <img className='footer-logo' src={linkedin} alt='linkedin logo that takes to my linkedin profile' />
                 </Link>
                 <Link to='https://github.com/ivanapejicic'>
-                    <img src={github} alt='github logo that takes to my github profile' />
+                    <img className='footer-logo' src={github} alt='github logo that takes to my github profile' />
                 </Link>
                 <Link to='mailto:ivanapejicic@icloud.com'>
-                    <img src={email} alt='email logo that redirects to new email with my address' />
+                    <img className='footer-logo' src={email} alt='email logo that redirects to new email with my address' />
                 </Link>
             </div>
         </>

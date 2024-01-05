@@ -6,10 +6,10 @@
     background-color: $backround;
 
 }
-.home{
+.header{
 
     @include tablet {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding: 1.5rem;
     }
 
@@ -37,12 +37,14 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 80vh;
+    height: 75vh;
     padding: 1rem;
 
     @include tablet {
-        font-size: 2rem;
+        font-size: 1.75rem;
         padding: 2.5rem;
+        height: 80vh;
+
     }
 
     @include desktop{
@@ -73,28 +75,45 @@
             padding-top: 0;
         }
     }
-    &__arrow {
-        padding: 1rem;
-    }
+    // &__arrow {
+    //     width: 70%;
+    //     align-self: flex-start; 
+    //     padding: 1rem;
+
+    //     @include tablet {
+    //         width: 95%;
+    //         padding: 1.5rem;
+    //     }
+
+    //     @include desktop {
+    //         width: 100%;
+    //         padding: 2rem;
+    //         align-self: flex-start; 
+    //     }
+    // }
+
 }
 
 .footer{
-    padding-left: 1rem;
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
+    padding: 0 5rem;
 
     @include tablet {
-        padding-left: 4rem;
+        padding: 0 12rem 2rem;
     }
 
     &-logo{
-        padding-left: .75rem;
-
+        width: 2rem;
         @include tablet {
-            padding-left: 1.5rem;
+            width: 3rem;
         }
         @include desktop {
-            padding-left: 3rem;
+            width: 7rem;
+        }
+
+        &:hover{
+            transform: scale(1.1);
         }
     }
 
@@ -104,4 +123,9 @@
     padding-left: 1.5rem;
     color: white;
     font-weight: bold;
+
+    &:hover{
+        color: yellow;
+        transform: scale(1.1);
+    }
 }

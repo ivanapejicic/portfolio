@@ -1,7 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './assets/pages/Home/Home';
-
+import About from './assets/pages/About/About';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path= '' element={<Home />} />
-            {/* <Route path= '/contact' element={<Contact /> } /> */}
+          <Route path= '/about' element={<About /> } /> 
           {/* <Route path = '/points' element={<Points /> } /> */}
         </Routes>      
       </BrowserRouter>

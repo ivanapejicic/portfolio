@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className='header'>
             <div className='header__top'>
-                <Link className='link' to='#'>Home</Link>
+                <Link className='link' to='/'>Home</Link>
                 <nav className='header__top-right'>
                     <Link className='link' to='/about'>About</Link>
                     <Link className='link' to='#'>Work</Link>

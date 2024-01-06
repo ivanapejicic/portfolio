@@ -1,0 +1,35 @@
+@use '../../styles/mixin' as *;
+@use '../../styles/typography' as *;
+@use '../../styles/variables' as *;
+
+.footer {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 2rem;
+
+    @include tablet {
+        padding-left: 2.5rem;
+    }
+    @include desktop {
+        padding-left: 6rem;
+    }
+
+    &-logo {
+        width: 2rem;
+
+        @include tablet {
+            width: 2.5rem;
+        }
+
+        @include desktop {
+            width: 3.5rem;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}

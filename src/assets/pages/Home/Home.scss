@@ -26,30 +26,6 @@ body {
     z-index: -1;
 }
 
-.header {
-
-    @include tablet {
-        font-size: 1.25rem;
-        padding: 1.5rem;
-    }
-
-    @include desktop {
-        font-size: 2rem;
-        padding: .5rem 4rem 0;
-    }
-
-    &__top {
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
-
-        &-right {
-            display: flex;
-            justify-content: space-between;
-        }
-    }
-}
-
 .main {
     text-align: left;
     color: white;
@@ -94,38 +70,6 @@ body {
         @include tablet {
             padding: 1.5rem;
             padding-top: 0;
-        }
-    }
-
-}
-
-.footer {
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-left: 2rem;
-
-    @include tablet {
-        padding-left: 2.5rem;
-    }
-    @include desktop {
-        padding-left: 6rem;
-    }
-
-    &-logo {
-        width: 2rem;
-
-        @include tablet {
-            width: 2.5rem;
-        }
-
-        @include desktop {
-            width: 3.5rem;
-        }
-
-        &:hover {
-            transform: scale(1.1);
         }
     }
 

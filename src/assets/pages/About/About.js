@@ -3,6 +3,9 @@ import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import headshot from '../../images/headshot.png';
 import react from '../../images/image 2.png';
+import html from '../../images/image 14.png';
+import node from '../../images/image 8.png';
+import sass from '../../images/image 3.png';
 
 function About() {
     return (
@@ -23,8 +26,20 @@ function About() {
                 <h2 className='about__main-tech__title'>Technical Specs</h2>
                 <div className='about__main-tech__languages'>
                     <div className='about__main-tech__languages-language'>
+                        <p className='about__main-tech__languages-language__title'>HTML5/CSS3/Javascript</p>
+                        <img className='about__main-tech__languages-language__icon' src={html} alt='icon for html5, css3 and Javascript'></img>
+                    </div>
+                    <div className='about__main-tech__languages-language'>
+                        <p className='about__main-tech__languages-language__title'>SASS</p>
+                        <img className='about__main-tech__languages-language__icon' src={sass} alt='icon for sass'></img>
+                    </div>
+                    <div className='about__main-tech__languages-language'>
                         <p className='about__main-tech__languages-language__title'>React</p>
                         <img className='about__main-tech__languages-language__icon' src={react} alt='icon for react.js'></img>
+                    </div>
+                    <div className='about__main-tech__languages-language'>
+                        <p className='about__main-tech__languages-language__title'>Node.js</p>
+                        <img className='about__main-tech__languages-language__icon' src={node} alt='icon for node.js'></img>
                     </div>
                 </div>
             </div>

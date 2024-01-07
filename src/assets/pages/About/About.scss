@@ -99,7 +99,8 @@
             }
 
             &__languages {
-
+                display: flex;
+                gap: 1rem;
                 &-language {
                     display: flex;
                     align-items: center;

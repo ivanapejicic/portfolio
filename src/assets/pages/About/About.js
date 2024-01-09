@@ -3,9 +3,14 @@ import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import headshot from '../../images/headshot.png';
 import react from '../../images/image 2.png';
-import html from '../../images/image 14.png';
-import node from '../../images/image 8.png';
+import html from '../../images/html.png';
+import css from '../../images/css.png';
+import js from '../../images/javascript.png';
+import node from '../../images/node.png';
 import sass from '../../images/image 3.png';
+import axiosIcon from '../../images/axios.png';
+import knex from '../../images/knex.png';
+import mysql from '../../images/mysql.png';
 
 function About() {
     return (
@@ -26,8 +31,16 @@ function About() {
                 <h2 className='about__main-tech__title'>Technical Specs</h2>
                 <div className='about__main-tech__languages'>
                     <div className='about__main-tech__languages-language'>
-                        <p className='about__main-tech__languages-language__title'>HTML5/CSS3/Javascript</p>
-                        <img className='about__main-tech__languages-language__icon' src={html} alt='icon for html5, css3 and Javascript'></img>
+                        <p className='about__main-tech__languages-language__title'>HTML5</p>
+                        <img className='about__main-tech__languages-language__icon' src={html} alt='icon for html5'></img>
+                    </div>
+                    <div className='about__main-tech__languages-language'>
+                        <p className='about__main-tech__languages-language__title'>CSS3</p>
+                        <img className='about__main-tech__languages-language__icon' src={css} alt='icon for css3'></img>
+                    </div>
+                    <div className='about__main-tech__languages-language'>
+                        <p className='about__main-tech__languages-language__title'>JavaScript</p>
+                        <img className='about__main-tech__languages-language__icon' src={js} alt='icon for javascript'></img>
                     </div>
                     <div className='about__main-tech__languages-language'>
                         <p className='about__main-tech__languages-language__title'>SASS</p>
@@ -41,6 +54,11 @@ function About() {
                         <p className='about__main-tech__languages-language__title'>Node.js</p>
                         <img className='about__main-tech__languages-language__icon' src={node} alt='icon for node.js'></img>
                     </div>
+                    <div className='about__main-tech__languages-language'>
+                        <p className='about__main-tech__languages-language__title'>MySql</p>
+                        <img className='about__main-tech__languages-language__icon' src={mysql} alt='icon for mySQL'></img>
+                    </div>
+                    
                 </div>
             </div>
             <Footer />

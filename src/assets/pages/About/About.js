@@ -21,9 +21,7 @@ function About() {
                 </div>
                 <p className='about__main-text'>My name is Ivana Pejicic. I was born and raised in Bosnia and Herzegovina.
                     My journey into the world of computer science and programming began right after high school. </p>
-                {/* <p className='about__main-text'>I am a recent graduate of BrainStation's Software Engineering bootcamp, currently pursuing
-                    an Associate in Science degree at Miami Dade College with a GPA of 4.0.
-                    I hold a Bachelor of Science degree with a major in Mathematics and Computer Science from Bosnia. </p> */}
+
             </div>
             <div className='about__main-tech'>
                 <h2 className='about__main-tech__title'>Technical Specs</h2>
@@ -57,8 +55,14 @@ function About() {
                         <img className='about__main-tech__languages-language__icon' src={mysql} alt='icon for mySQL'></img>
                     </div>
                 </div>
-                <p className='about__main-text'>Over the last three months in 2023, I've been immersed in BrainStation's Software Engineering Bootcamp, mastering new skills and contributing to various projects. Some were solo, others in pairs, and a few collaborative efforts with SE and UX/UI teams. 
-                        Excited to share these experiences on the next page, showcasing my passion for full-stack web development. </p>
+                <p className='about__main-text'>Over the last three months in 2023, I've been immersed in BrainStation's Software Engineering Bootcamp, mastering new skills and contributing to various projects. Some were solo, others in pairs, and a few collaborative efforts with SE and UX/UI teams.
+                    Excited to share these experiences on the next page, showcasing my passion for full-stack web development. </p>
+            </div>
+            <div className='about__main-history'>
+                <h2 className='about__main-history__title'>A Brief History</h2>
+                <p className='about__main-text'>I am a recent graduate of BrainStation's Software Engineering bootcamp, currently pursuing
+                    an Associate in Science degree at Miami Dade College with a GPA of 4.0.
+                    I hold a Bachelor of Science degree with a major in Mathematics and Computer Science from Bosnia. </p>
             </div>
             <Footer />
         </div>

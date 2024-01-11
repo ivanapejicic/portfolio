@@ -8,7 +8,7 @@ function Header() {
                 <Link className='link' to='/'>Home</Link>
                 <nav className='header__top-right'>
                     <Link className='link' to='/about'>About</Link>
-                    <Link className='link' to='#'>Work</Link>
+                    <Link className='link' to='/work'>Work</Link>
                     <Link className='link' to='#'>Contact</Link>
                 </nav>
             </div>

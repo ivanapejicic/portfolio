@@ -12,14 +12,14 @@
         align-items: center;
         justify-content: space-between;
         padding-bottom: 2rem;
-        border-bottom: 3px grey solid;
+        border-bottom: 3px yellow solid;
 
         @include tablet {
-            padding: 4rem 6rem;
+            margin: 4rem 6rem;
         }
 
         @include desktop {
-            padding: 5rem 12rem;
+            margin: 5rem 12rem;
         }
 
 
@@ -85,6 +85,8 @@
             &__tools {
                 padding: .75rem;
                 padding-left: 1.5rem;
+                background-color: rgba(255, 255, 0, 0.365);
+                font-family: 'Alpha Echo';
             }
         }
     }

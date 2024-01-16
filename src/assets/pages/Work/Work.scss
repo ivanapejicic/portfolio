@@ -15,21 +15,24 @@
         border-bottom: 3px yellow solid;
 
         @include tablet {
-            margin: 4rem 6rem;
+            padding: 4rem 6rem;
         }
 
         @include desktop {
-            margin: 5rem 12rem;
+            padding: 5rem 12rem;
         }
-
 
         &-title {
             font-size: 1.5rem;
             font-family: 'Alpha Echo';
+            position: relative;
 
             &::after {
                 content: '!';
                 color: yellow;
+                position: absolute;
+                top: 0;
+                right: -1.5rem;
             }
 
             @include tablet {
@@ -38,16 +41,15 @@
 
             @include desktop {
                 font-size: 4rem;
-
             }
         }
 
         &-img {
             border-radius: 50%;
             width: 15%;
-
         }
     }
+
     &__projects {
         padding: 1rem;
 
@@ -63,7 +65,7 @@
             border: 1px solid yellow;
             background-color: white;
             border-radius: .625rem;
-            margin-bottom: 2rem;
+            margin-bottom: 4rem; 
 
             &__title {
                 background-color: rgb(227, 222, 222);
@@ -71,7 +73,9 @@
                 padding-left: 1.5rem;
                 font-family: 'Alpha Echo';
                 border-radius: .625rem;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
             }
+
             &__photos {
                 display: flex;
                 align-items: center;
@@ -80,17 +84,23 @@
                     width: 33%;
                     height: 100%;
                     padding: 1rem;
+                    &:hover {
+                        transform: scale(1.1); 
+                        cursor: grab;
+                    }
                 }
             }
+
             &__tools {
                 padding: .75rem;
                 padding-left: 1.5rem;
                 background-color: rgba(255, 255, 0, 0.365);
                 font-family: 'Alpha Echo';
+                border-bottom-left-radius: .625rem;
+                border-bottom-right-radius: .625rem;
             }
         }
     }
-
 }
 .work:before {
     content: '';
@@ -99,6 +109,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+    background: linear-gradient(rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.653));
     z-index: -1;
 }

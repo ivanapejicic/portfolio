@@ -27,7 +27,7 @@ function Work() {
                 <img className='work__top-img' src={checklist} alt='yellow checklist as an indicator that next section will show my work'></img>
             </div>
             <div className='work__projects'>
-                <div className='work__projects-project'>
+                {/* <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>Travel Site</h3>
                     <div className='work__projects-project__photos'>
                         <img className='work__projects-project__photos-photo' src={travel1} alt="screenshot of a travel website that I created"></img>
@@ -35,7 +35,7 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={travel3} alt="another screenshot of a travel website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3</h4>
-                </div>
+                </div> */}
                 <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>Band Site</h3>
                     <div className='work__projects-project__photos'>

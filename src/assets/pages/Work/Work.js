@@ -8,7 +8,7 @@ import travel3 from '../../images/projects/travelsite3.png';
 import band1 from '../../images/projects/beesknees2.png';
 import band2 from '../../images/projects/beesknees3.png';
 import band3 from '../../images/projects/beesknees4.png';
-import capstone1 from '../../images/projects/capstone1.png';
+import capstone1 from '../../images/projects/wepool1.png';
 import capstone2 from '../../images/projects/capstone2.png';
 import capstone3 from '../../images/projects/capstone3.png';
 import cafe1 from '../../images/projects/cafe1.png';

@@ -14,7 +14,9 @@ import capstone3 from '../../images/projects/capstone3.png';
 import cafe1 from '../../images/projects/cafe1.png';
 import cafe2 from '../../images/projects/cafe2.png';
 import cafe3 from '../../images/projects/cafe3.png';
-
+import brainflix1 from '../../images/projects/brainflix2.png';
+import brainflix2 from '../../images/projects/brainflix1.png';
+import brainflix3 from '../../images/projects/brainflix3.png';
 
 function Work() {
     return (
@@ -44,6 +46,15 @@ function Work() {
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS BEM APIs AXIOS</h4>
                 </div>
                 <div className='work__projects-project'>
+                    <h3 className='work__projects-project__title'>BrainFlix</h3>
+                    <div className='work__projects-project__photos'>
+                        <img className='work__projects-project__photos-photo' src={brainflix1} alt="screenshot of a brainflix website that I created, similar to youtube"></img>
+                        <img className='work__projects-project__photos-photo' src={brainflix2} alt="another screenshot of a brainflix website that I created, similar to youtube"></img>
+                        <img className='work__projects-project__photos-photo' src={brainflix3} alt="another screenshot of a brainflix website that I created, similar to youtube"></img>
+                    </div>
+                    <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 React.js JSON REST-APIs</h4>
+                </div>
+                <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>Cafe Beignet</h3>
                     <div className='work__projects-project__photos'>
                         <img className='work__projects-project__photos-photo' src={cafe1} alt="screenshot of a cafe website that I created"></img>
@@ -61,6 +72,7 @@ function Work() {
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 JavaScript React.js Node.js MySQL</h4>
                 </div>
+                
                 
             </div>
             <Footer />

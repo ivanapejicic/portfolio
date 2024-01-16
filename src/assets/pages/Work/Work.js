@@ -22,7 +22,7 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={travel2} alt="another screenshot of a travel website that I created"></img>
                         <img className='work__projects-project__photos-photo' src={travel3} alt="another screenshot of a travel website that I created"></img>
                     </div>
-
+                    <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3</h4>
                 </div>
             </div>
             <Footer />

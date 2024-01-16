@@ -22,11 +22,6 @@
             padding: 5rem 12rem;
         }
 
-        @include desktop {
-            padding: 0 5rem 2rem;
-
-        }
-
 
         &-title {
             font-size: 1.5rem;
@@ -51,6 +46,43 @@
             border-radius: 50%;
             width: 15%;
 
+        }
+    }
+    &__projects {
+        padding: 1rem;
+
+        @include tablet {
+            padding: 4rem 6rem;
+        }
+
+        @include desktop {
+            padding: 5rem 12rem;
+        }
+
+        &-project {
+            border: 1px solid yellow;
+            background-color: white;
+            border-radius: .625rem;
+
+            &__title {
+                background-color: rgb(227, 222, 222);
+                padding: .75rem;
+                padding-left: 1.5rem;
+                font-family: 'Alpha Echo';
+                border-radius: .625rem;
+            }
+            &__photos {
+                display: flex;
+
+                &-photo {
+                    width: 33%;
+                    padding: 1rem;
+                }
+            }
+            &__tools {
+                padding: .75rem;
+                padding-left: 1.5rem;
+            }
         }
     }
 

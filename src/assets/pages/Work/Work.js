@@ -44,15 +44,6 @@ function Work() {
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS BEM APIs AXIOS</h4>
                 </div>
                 <div className='work__projects-project'>
-                    <h3 className='work__projects-project__title'>WePool - ride sharing app</h3>
-                    <div className='work__projects-project__photos'>
-                        <img className='work__projects-project__photos-photo' src={capstone1} alt="screenshot of a ride sharing website that I created"></img>
-                        <img className='work__projects-project__photos-photo' src={capstone2} alt="another screenshot of a ride sharing website that I created"></img>
-                        <img className='work__projects-project__photos-photo' src={capstone3} alt="another screenshot of a ride sharing website that I created"></img>
-                    </div>
-                    <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 JavaScript React.js Node.js MySQL</h4>
-                </div>
-                <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>Cafe Beignet</h3>
                     <div className='work__projects-project__photos'>
                         <img className='work__projects-project__photos-photo' src={cafe1} alt="screenshot of a cafe website that I created"></img>
@@ -61,6 +52,16 @@ function Work() {
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS JavaScript React.js</h4>
                 </div>
+                <div className='work__projects-project'>
+                    <h3 className='work__projects-project__title'>WePool - ride sharing app</h3>
+                    <div className='work__projects-project__photos'>
+                        <img className='work__projects-project__photos-photo' src={capstone1} alt="screenshot of a ride sharing website that I created"></img>
+                        <img className='work__projects-project__photos-photo' src={capstone2} alt="another screenshot of a ride sharing website that I created"></img>
+                        <img className='work__projects-project__photos-photo' src={capstone3} alt="another screenshot of a ride sharing website that I created"></img>
+                    </div>
+                    <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 JavaScript React.js Node.js MySQL</h4>
+                </div>
+                
             </div>
             <Footer />
         </div>

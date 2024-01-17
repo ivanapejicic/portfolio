@@ -1,3 +1,40 @@
 @use '../../styles/mixin' as *;
 @use '../../styles/typography' as *;
 @use '../../styles/variables' as *;
+
+.contact
+{
+    position: xsrelative;
+    &__title {
+    font-size: 1.5rem;
+    font-family: 'Alpha Echo';
+    position: relative;
+
+    &::after {
+        content: '.';
+        color: yellow;
+        position: absolute;
+        top: 0;
+        right: -1.5rem;
+    }
+
+    @include tablet {
+        font-size: 3rem;
+    }
+
+    @include desktop {
+        font-size: 4rem;
+    }
+}
+}
+
+.contact:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.653));
+    z-index: -1;
+}

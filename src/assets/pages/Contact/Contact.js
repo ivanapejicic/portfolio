@@ -7,6 +7,7 @@ function Contact () {
         <div className = 'contact'>
             <Header />
             <h1 className='contact__title'>Contact</h1>
+            <Footer />
 
         </div>
     )

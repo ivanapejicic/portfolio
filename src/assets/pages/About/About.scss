@@ -22,7 +22,7 @@
             align-items: center;
             justify-content: space-between;
             padding-bottom: 2rem;
-            border-bottom: 3px grey solid;
+            border-bottom: 1px yellow solid;
 
             @include desktop {
                 padding: 0 5rem 2rem;
@@ -67,6 +67,7 @@
 
             @include desktop {
                 font-size: 2rem;
+                padding-top: 2rem;
             }
 
         }
@@ -113,6 +114,9 @@
                 @include tablet {
                     flex-direction: row;
                     flex-wrap: wrap;
+                }
+                @include desktop {
+                    padding-top: 2.5rem;
                 }
                 &-language {
                     display: flex;

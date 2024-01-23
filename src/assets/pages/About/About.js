@@ -9,6 +9,7 @@ import js from '../../images/javascript.png';
 import node from '../../images/node.png';
 import sass from '../../images/image 3.png';
 import mysql from '../../images/mysql.png';
+import demo from '../../images/demo.png';
 
 function About() {
     return (
@@ -60,9 +61,12 @@ function About() {
             </div>
             <div className='about__main-history'>
                 <h2 className='about__main-history__title'>A Brief History</h2>
-                <p className='about__main-text'>I am a recent graduate of BrainStation's Software Engineering bootcamp, currently pursuing
+                <div className='about__main-history__content'>
+                    <p className='about__main-text'>I am a recent graduate of BrainStation's Software Engineering bootcamp, currently pursuing
                     an Associate in Science degree at Miami Dade College with a GPA of 4.0.
                     I hold a Bachelor of Science degree with a major in Mathematics and Computer Science from Bosnia. </p>
+                    <img className='about__main-history__content-photo' src={demo} alt='photo of me for demo day at BrainStation'></img>
+                </div>
             </div>
             <Footer />
         </div>

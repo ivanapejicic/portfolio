@@ -173,6 +173,17 @@
     
                 }
             }
+            &__content {
+                display: flex;
+                flex-direction: column;
+                justify-content: baseline;
+                gap: 1rem;
+                &-photo {
+                    padding: 1rem;
+                    width: 100%;
+                    height: auto;
+                }
+            }
     }
         
     }

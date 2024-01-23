@@ -8,6 +8,7 @@ Welcome to my portfolio! As a junior software engineer, I've crafted this portfo
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Mockups](#mockups)
 
 ## Overview
 This portfolio serves as a central hub for information about me, my skills, and the projects I've worked on. It's designed to provide an easy and interactive way for visitors to learn more about my background and expertise.
@@ -32,3 +33,8 @@ This portfolio serves as a central hub for information about me, my skills, and 
 To run the portfolio locally:
 1. Run: `npm start`
 2. Open your browser and visit: `http://localhost:3000`
+
+## Mockups
+![Home Page](./src/assets/images/screenshot1.png)<br><br>
+![About](./src/assets/images/screenshot2.png)<br><br>
+![Work](./src/assets/images/screenshot3.png)<br><br>

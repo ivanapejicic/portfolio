@@ -176,12 +176,38 @@
             &__content {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 justify-content: baseline;
                 gap: 1rem;
+
+                @include tablet {
+                    flex-direction: row;
+
+                }
+
+                &-text {
+                    font-size: 1rem;
+                    font-weight: 600;
+                    @include tablet {
+                        font-size: 1.75rem;
+                    }
+        
+                    @include desktop {
+                        font-size: 2rem;
+                        padding-top: 2rem;
+                    }
+        
+                }
                 &-photo {
                     padding: 1rem;
                     width: 100%;
                     height: auto;
+                    align-items: center;
+
+                    @include tablet {
+                        width: 50%;
+                        padding: 3rem;
+                    }
                 }
             }
     }

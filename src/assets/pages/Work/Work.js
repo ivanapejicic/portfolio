@@ -44,6 +44,7 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={band3} alt="another screenshot of a band website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS BEM APIs AXIOS</h4>
+                    <p><b>Project Description: This is a two pages web site created for Bees Knees Bandsite. First page contains band's info, and photo gallery, and second page has their tour and options to buy tickets for diifferent concerts.</b></p>
                 </div>
                 <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>BrainFlix</h3>

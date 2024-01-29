@@ -32,7 +32,7 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={band3} alt="another screenshot of a band website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS BEM APIs AXIOS</h4>
-                    <p className = 'work__projects-project__text'><p className='description-title'>Project Description:</p> This is a two pages web site created for Bees Knees Bandsite. First page contains band's info, and photo gallery, and second page has their tour and options to buy tickets for diifferent concerts.</p>
+                    <p className = 'work__projects-project__text'><p className='description-title'>Project Description:</p> Created a website for Bees Knees band. The project was delivered in 3 parts/sprints, and it used Sass for styling, BEM for class naming, and Flexbox for layout of the site.</p>
                 </div>
                 <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>BrainFlix</h3>
@@ -51,6 +51,8 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={cafe3} alt="another screenshot of a cafe website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS JavaScript React.js</h4>
+                    <p className = 'work__projects-project__text'><p className='description-title'>Project Description:</p> Created a comprehensive website for a newly launched cafe in South Beach. Developed user-friendly features including photo gallery, menu display, online ordering, and a points system using MySQL for backend functionality. Demonstrated proficiency in HTML, CSS, Flexbox, Sass, JavaScript, React, and Node (back end).</p>
+
                 </div>
                 <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>WePool - ride sharing app</h3>
@@ -60,6 +62,9 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={capstone3} alt="another screenshot of a ride sharing website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 JavaScript React.js Node.js MySQL</h4>
+                    <p className = 'work__projects-project__text'><p className='description-title'>Project Description:</p> Developed a standout Capstone project, employing HTML, CSS, Flexbox, Saas, JavaScript, React.js, Node (back end), and DOM APIs. Created a dynamic app connecting like-minded travelers for shared travel costs, showcasing comprehensive front-end and back-end skills. Implemented a seamless user registration process using JSON token, reducing onboarding time by 40%.
+</p>
+
                 </div>
                 
                 

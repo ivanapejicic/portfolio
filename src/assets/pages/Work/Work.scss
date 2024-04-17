@@ -69,6 +69,7 @@
 
             &__title {
                 background-color: rgb(227, 222, 222);
+                color: black;
                 padding: .75rem;
                 padding-left: 1.5rem;
                 font-family: 'Alpha Echo';
@@ -103,21 +104,13 @@
 
             &__text {
                 font-size: 1rem;
-                /* Adjust font size as needed */
                 line-height: 1.5;
-                /* Adjust line height as needed */
                 padding: 1.5rem;
-                /* Add padding around the description */
                 font-family: 'Alpha Echo';
-                /* Use desired font family */
                 color: #333;
-                /* Set text color */
                 background-color: #f9f9f9;
-                /* Set background color */
                 border-radius: 0.625rem;
-                /* Add border radius for rounded corners */
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                /* Add a subtle shadow */
                 margin-top: 1.5rem;
 
                 @include tablet {

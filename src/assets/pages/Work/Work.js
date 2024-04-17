@@ -14,6 +14,7 @@ import cafe3 from '../../images/projects/cafe3.png';
 import brainflix1 from '../../images/projects/brainflix2.png';
 import brainflix2 from '../../images/projects/brainflix1.png';
 import brainflix3 from '../../images/projects/brainflix3.png';
+import { Link } from 'react-router-dom';
 
 function Work() {
     return (
@@ -25,7 +26,7 @@ function Work() {
             </div>
             <div className='work__projects'>
                 <div className='work__projects-project'>
-                    <h3 className='work__projects-project__title'>Band Site</h3>
+                <Link to='https://github.com/ivanapejicic/bandsite'><h3 className='work__projects-project__title'>Band Site</h3></Link>
                     <div className='work__projects-project__photos'>
                         <img className='work__projects-project__photos-photo' src={band1} alt="screenshot of a band website that I created"></img>
                         <img className='work__projects-project__photos-photo' src={band2} alt="another screenshot of a band website that I created"></img>
@@ -45,7 +46,7 @@ function Work() {
                     <p className = 'work__projects-project__text'>Project Description: BrainFlix is a prototype for a video streaming platform that combines YouTube functionality with Vimeo design. It is a single-page application built with React and uses react-router to create multi-page functionality.</p>
                 </div>
                 <div className='work__projects-project'>
-                    <h3 className='work__projects-project__title'>Cafe Beignet</h3>
+                    <Link to='https://github.com/ivanapejicic/coffeeshop'><h3 className='work__projects-project__title'>Cafe Beignet</h3></Link>
                     <div className='work__projects-project__photos'>
                         <img className='work__projects-project__photos-photo' src={cafe1} alt="screenshot of a cafe website that I created"></img>
                         <img className='work__projects-project__photos-photo' src={cafe2} alt="another screenshot of a cafe website that I created"></img>
@@ -56,15 +57,14 @@ function Work() {
 
                 </div>
                 <div className='work__projects-project'>
-                    <h3 className='work__projects-project__title'>WePool - ride sharing app</h3>
+                    <Link to='https://github.com/ivanapejicic/capstone'><h3 className='work__projects-project__title'>WePool - ride sharing app</h3></Link>
                     <div className='work__projects-project__photos'>
                         <img className='work__projects-project__photos-photo' src={capstone1} alt="screenshot of a ride sharing website that I created"></img>
                         <img className='work__projects-project__photos-photo' src={capstone2} alt="another screenshot of a ride sharing website that I created"></img>
                         <img className='work__projects-project__photos-photo' src={capstone3} alt="another screenshot of a ride sharing website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 JavaScript React.js Node.js MySQL</h4>
-                    <p className = 'work__projects-project__text'>Project Description: Developed a standout Capstone project, employing HTML, CSS, Flexbox, Saas, JavaScript, React.js, Node (back end), and DOM APIs. Created a dynamic app connecting like-minded travelers for shared travel costs, showcasing comprehensive front-end and back-end skills. Implemented a seamless user registration process using JSON token, reducing onboarding time by 40%.
-</p>
+                    <p className = 'work__projects-project__text'>Project Description: Developed a standout Capstone project, employing HTML, CSS, Flexbox, Saas, JavaScript, React.js, Node (back end), and DOM APIs. Created a dynamic app connecting like-minded travelers for shared travel costs, showcasing comprehensive front-end and back-end skills. Implemented a seamless user registration process using JSON token.</p>
 
                 </div>
                 

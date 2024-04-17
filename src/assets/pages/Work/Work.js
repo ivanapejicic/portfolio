@@ -32,7 +32,7 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={band3} alt="another screenshot of a band website that I created"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 SASS BEM APIs AXIOS</h4>
-                    <p className = 'work__projects-project__text'>Project Description: Created a website for Bees Knees band. The project was delivered in 3 parts/sprints, and it used Sass for styling, BEM for class naming, and Flexbox for layout of the site.</p>
+                    <p className = 'work__projects-project__text'>Project Description: Bees Knees is a band website. The project was delivered in 3 parts/sprints, and it used Sass for styling, BEM for class naming,Flexbox for layout of the site and Axios for the API HTTP requests.</p>
                 </div>
                 <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>BrainFlix</h3>
@@ -42,6 +42,7 @@ function Work() {
                         <img className='work__projects-project__photos-photo' src={brainflix3} alt="another screenshot of a brainflix website that I created, similar to youtube"></img>
                     </div>
                     <h4 className='work__projects-project__tools'>Tools used: HTML5 CSS3 React.js JSON REST-APIs</h4>
+                    <p className = 'work__projects-project__text'>Project Description: BrainFlix is a prototype for a video streaming platform that combines YouTube functionality with Vimeo design. It is a single-page application built with React and uses react-router to create multi-page functionality.</p>
                 </div>
                 <div className='work__projects-project'>
                     <h3 className='work__projects-project__title'>Cafe Beignet</h3>
